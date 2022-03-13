@@ -4,14 +4,14 @@
 }
 
 #titulo {
-    font-family: sans-serif;
-    color: #380b61;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
     margin-left: 7%;
 }
 
 #subtitulo {
-    font-family: sans-serif;
-    color: #380b61;
+    font-family: 'Times New Roman', Times, serif;
+    color: #040404;
     margin-left: 8%;
 }
 
@@ -24,11 +24,35 @@ fieldset {
     border: 0;
 }
 
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 body {
     background-color: #f0f8ff;
     font-family: sans-serif;
     font-size: 1em;
-    color: #59429d;
+    color: #000000;
     margin-left: 36%;
     margin-top: 2%;
     justify-content: center;
@@ -38,7 +62,7 @@ input,
 select,
 textarea,
 button {
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .grupo:before,
@@ -56,7 +80,7 @@ button {
 
 .campo label {
     margin-bottom: 0.2em;
-    color: #59429d;
+    color: #000000;
     display: block;
 }
 
@@ -70,8 +94,8 @@ fieldset.grupo.campo {
 .campo select,
 .campo textarea,
 .campo input[type="number"] {
-    padding: 0.2em;
-    border: 1px solid #59429d;
+    padding: 0.5em;
+    border: 1px solid #000000;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     display: block;
 }
@@ -88,7 +112,7 @@ fieldset.grupo.campo {
 
 .botao {
     font-size: 1.2em;
-    background: #59429d;
+    background: #262037;
     border: 0;
     margin-bottom: 1em;
     color: #ffffff;

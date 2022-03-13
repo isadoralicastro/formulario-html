@@ -6,13 +6,13 @@
 #titulo {
     font-family: 'Times New Roman', Times, serif;
     color: #000000;
-    margin-left: 7%;
+    margin-left: 5%;
 }
 
 #subtitulo {
     font-family: 'Times New Roman', Times, serif;
     color: #040404;
-    margin-left: 8%;
+    margin-left: 6%;
 }
 
 #check {
@@ -95,7 +95,8 @@ fieldset.grupo.campo {
 .campo textarea,
 .campo input[type="number"] {
     padding: 0.5em;
-    border: 1px solid #000000;
+    padding-right: 5em;
+    border: 2px groove #6a5151;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     display: block;
 }
